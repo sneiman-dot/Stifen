@@ -16,7 +16,7 @@ img{
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #fff, var(--bg-main));
-  transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease-in-out;
 }
 
 .cover.fade-out {
@@ -144,6 +144,34 @@ body {
   color: var(--accent);
 }
 
+.cvz{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #fff, var(--bg-main));
+    transition: opacity 0.8s ease;
+}
+
+.cvz.fade-out {
+  opacity: 0;
+}
+
+.ltr{
+  width: 200px;
+  height: 140px;
+  border: 2px solid var(--accent);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .footer {
   text-align: center;
   padding: 3rem 2rem;
@@ -155,5 +183,7 @@ body {
   height: 100px;
   width: 100px;
 }
+
+
 
 
